@@ -1,0 +1,11 @@
+int tal = 2;
+tal++;
+Console.WriteLine(++tal);// læger tal til verdi først og viser verdi 
+Console.WriteLine(tal++);// viser verdi først og lægger tal til verdi
+Console.WriteLine(tal++); 
+Console.ReadLine();
+
+en liste/array
+
+classe 3banana,3apple,3pineapple
+name,pris,sayname(metode)

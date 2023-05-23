@@ -1,0 +1,27 @@
+tables:
+
+customers en(pramary key)
+id int
+FirstName nvarchar(255)
+LastName nvarchar(255)
+EmailAddress nvarchar(255)
+
+
+category mange (foreing key)
+id int
+name nvarchar(255)
+Destriptions Nvarchar(255)
+
+products mange (foreing key)
+Id int
+Name nvarchar(255)
+Destriptions nvarchar(255)
+
+orders mange (foreing key)
+id int
+Product_name nvarchar(255)
+antal_products int
+
+
+
+customers --> category --> product --> orders

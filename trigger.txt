@@ -1,0 +1,52 @@
+use Master
+GO
+
+Create database LoginDb
+Go
+
+Use LoginDb
+GO
+
+
+CREATE TABLE [dbo].[tblUserHistory](
+	[UserId] [int] NULL,
+	[UserName] [nvarchar](50) NULL,
+	[Password] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [dbo].[tblUser](
+	[UserId] [int] NULL,
+	[UserName] [nvarchar](50) NULL,
+	[Password] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+
+/* After Insert trigger on tblUser table */
+
+IF OBJECT_ID('TRG_InsertSyncTlbUser') IS NOT NULL
+DROP TRIGGER TRG_InsertSyncEmp
+GO
+
+CREATE TRIGGER TRG_InsertSyncTlbUser 
+ON dbo.tblUser
+AFTER INSERT AS
+BEGIN
+INSERT INTO dbo.tblUserHistory
+SELECT * FROM INSERTED
+END
+GO
+
+---- Test the fucker :)
+use LoginDb
+go
+
+insert into tblUser (UserId, UserName, [Password]) values (1,'Palle Westermann', '123')
+go
+
+
+-- tjek om rækken nu også er indsat på tblUserHistory-tabellen
+
+select *
+from tblUserHistory
