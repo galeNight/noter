@@ -1,0 +1,18 @@
+class hotdog = constroctor
+{
+  public = access modifier 
+  hotdog = classname
+  () = input parameter
+  {
+    accessm returtype 
+  }
+}
+
+class må have 1 til 2 constrostor 
+returtyper 1
+parameter retunerre 1
+ehnum = tal string
+(int) = Implicit 
+
+Implicit indirect/automatically
+explicit = direct/manually
