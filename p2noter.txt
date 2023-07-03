@@ -4,7 +4,7 @@ class hotdog = constroctor
   hotdog = classname
   () = input parameter
   {
-    accessm returtype 
+    accessmodifier returtype 
   }
 }
 
