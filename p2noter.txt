@@ -1,8 +1,6 @@
 class hotdog = constroctor
 {
-  public = access modifier 
-  hotdog = classname
-  () = input parameter
+  public = access modifier   hotdog = classname   () = input parameter
   {
     accessmodifier returtype 
   }
@@ -11,8 +9,13 @@ class hotdog = constroctor
 class må have 1 til 2 constrostor 
 returtyper 1
 parameter retunerre 1
+
 ehnum = tal string
 (int) = Implicit 
-
 Implicit indirect/automatically
 explicit = direct/manually
+int = integer(hole num)
+double = floating (point num)
+char = charactor (single char fx A)
+bool = boolean (true/false)
+string = string (text)
