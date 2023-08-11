@@ -30,7 +30,52 @@ invariance = Means that you can use only the type originally specified. An invar
 Implicit indirect/automatically
 explicit = direct/manually
 
+constrotor
+første accesmodifire
+andet referencetype
+tredje parameter
+fjere inputparameter
+femte {}
+
+metode
+first accesmodifire
+andet returtype
+trejde navn
+fjere ()
+fjemte inputbarameter
+sjete {}
+
+aray er en bool
+
 () input parameter er data typerne fx string, int, double o.s.v
 fild liger i constroctor som er prive, public o.v.s
 _ viser at den tilhøre constrostorens 
 .length gør string til int
+
+
+tal operator tegn og forklaring:
++ = plus
+- = minus
+* = gange
+/ = division
+% = modulud retunere resten ved en didition
++= = addere og tildeler værdien af en variable med en verdi
+-= subtrahere og tildeler værdien af en variable med en verdi
+*= = multiplicere og tildeler værdien af en variable med en verdi
+/= dividerer og tildeler værdien af en variable med en verdi
+++ = forøger en variable med en
+-- = forminsker en variable med en
+
+logisk operator tegn og forklaring: (boolin)
+== = lig med 
+!= = forskellige fra
+&& = and (og) begge værdier skal være sande for at retunere sand
+|| = Or (eller) kun en værdi skal være sand for at retunere sand
+> = større end 
+< = mindre end
+>= = større end eller lig med
+>0 = mindre en eller lig med 
+
+
+
+javacript === sameliner datatyper og indholder er ens
