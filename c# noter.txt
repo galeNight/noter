@@ -9,3 +9,22 @@ en liste/array
 
 classe 3banana,3apple,3pineapple
 name,pris,sayname(metode)
+
+Metoder:
+Hvorfor? 
+Hvad nytter det? 
+Hvor bruges det? 
+Hvordan?
+
+overriding:
+Hvorfor? for at ændre den nuverrene ting med en andren
+Hvad nytter det? 
+Hvor bruges det? liger i forskælige klasser 
+Hvordan? metode skal signature + returtypen være dt samme
+
+overloading:
+Hvorfor? for at ændre den nuverrene ting med en andren
+Hvad nytter det? 
+Hvor bruges det? ligger i samme klasse
+Hvordan? metode med samme navn og forskælige parameter
+
