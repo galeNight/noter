@@ -27,6 +27,8 @@ FK - FOREING KEY
 MANGE TIL MANGE - ny tabel
 EN TIL MANGE - mange side for foreign key
 EN TIL EN
+1 = Mange 1 siden skal have pramary key
+1 = Mange: Mage side skal have foreign key fra 1 siden
 
 The following constraints are commonly used in SQL:
 
