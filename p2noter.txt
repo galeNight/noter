@@ -79,3 +79,6 @@ logisk operator tegn og forklaring: (boolin)
 
 
 javacript === sameliner datatyper og indholder er ens
+
+
+konstructor kan ikke have returtype kun metoder/ kan
