@@ -91,3 +91,22 @@ while loop is for to run thrue a block of code whne conditions is true
 do/while loop is for running the loop ones and then contune running the loop when condition is true
 foreach loop is for running thruge an a element in a n a array
 
+nested loop ex
+for(){
+  for(){}
+}
+for loop ex
+foo(){}
+
+while loop ex
+while(){}
+
+do/while loop ex
+do
+{
+}
+while()
+
+foreach loop ex
+string []
+foreach(){}
