@@ -90,3 +90,4 @@ for loop is for when and exate number of time the loop need to run
 while loop is for to run thrue a block of code whne conditions is true 
 do/while loop is for running the loop ones and then contune running the loop when condition is true
 foreach loop is for running thruge an a element in a n a array
+
