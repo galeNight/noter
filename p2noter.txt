@@ -88,7 +88,7 @@ konstructor kan ikke have returtype kun metoder/ kan
 loops:
 loop can run a block of code as long a specified condition is reached. loops are handy becouse the can save time,reduse errors, and make code more readable
 
-nested loop is for when the need for a loop to run multiple times by another loop which is done by a outerloob and a innerloop
+nested loop is for when the need for a loop to run multiple times by another loop which is done by a outerloob and a innerloop 
 nested loop work by the innner loop wil run one time for each iteration of the outher loop
 nested loop ex:
 for(int i = 1; i <= 2; ++i){
@@ -98,9 +98,9 @@ for(int i = 1; i <= 2; ++i){
   }
 }
 
-for(statment 1; statment 2; statment 3;){
+for(initializer ; condision; iterator){
   code block
-  for(statment 1; statment 2; statment 3;){
+  for(initializer; condision; iterator){
     code block 
   }
 }
@@ -111,7 +111,7 @@ statment 2 defines the condition for executing the code block
 statmet 3 is executed(every time) after the code block has been executed
 for loop ex:
 for(int i = 0; i < 5; i++){console.writeline(i)}
-for(statment 1; statment2; statment3){code block}
+for(initializer; condision; iterator){code block}
 
 while loop is for to run through a block of code when conditions is true 
 while loop ex:
