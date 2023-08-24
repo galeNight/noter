@@ -85,28 +85,30 @@ konstructor kan ikke have returtype kun metoder/ kan
 
 
 loops:
-nested loop is for when the need for a loop to run multuby times by a nother loop by a outerloob and a innerloop
-for loop is for when and exate number of time the loop need to run
-while loop is for to run thrue a block of code whne conditions is true 
-do/while loop is for running the loop ones and then contune running the loop when condition is true
-foreach loop is for running thruge an a element in a n a array
 
+
+nested loop is for when the need for a loop to run multuby times by a nother loop by a outerloob and a innerloop
 nested loop ex
 for(){
   for(){}
 }
+
+for loop is for when and exate number of time the loop need to run
 for loop ex
 foo(){}
 
+while loop is for to run thrue a block of code whne conditions is true 
 while loop ex
 while(){}
 
+do/while loop is for running the loop ones and then contune running the loop when condition is true
 do/while loop ex
 do
 {
 }
 while()
 
+foreach loop is for running thruge an a element in a n a array
 foreach loop ex
 string []
 foreach(){}
