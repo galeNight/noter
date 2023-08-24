@@ -108,7 +108,7 @@ do
 }
 while()
 
-foreach loop is for running thruge an a element in a n a array
+foreach loop is for running thruge an a element in an a array
 foreach loop ex
 string []
 foreach(){}
