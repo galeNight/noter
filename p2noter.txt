@@ -86,29 +86,71 @@ konstructor kan ikke have returtype kun metoder/ kan
 
 
 loops:
+loop can run a block of code as long a specified condition is reached. loops are handy becouse the can save time,reduse errors, and make code more readable
 
 nested loop is for when the need for a loop to run multiple times by another loop which is done by a outerloob and a innerloop
+nested loop work by the innner loop wil run one time for each iteration of the outher loop
 nested loop ex:
-for(){
-  for(){}
+for(int i = 1; i <= 2; ++i){
+  console.writeline("outer: " + i);
+  for(int j = 1; j <= 3; j++) runs 2 times{
+    console.writeline("inner: " j++) runs 6 times(2*3;
+  }
 }
 
-for loop is for when an specific number of time the loop need to run
+for(statment 1; statment 2; statment 3;){
+  code block
+  for(statment 1; statment 2; statment 3;){
+    code block 
+  }
+}
+
+for loop is for when an specific number of time the loop need to run.
+statment 1 is executed(one time)before the execution of the code block
+statment 2 defines the condition for executing the code block
+statmet 3 is executed(every time) after the code block has been executed
 for loop ex:
-foo(){}
+for(int i = 0; i < 5; i++){console.writeline(i)}
+for(statment 1; statment2; statment3){code block}
 
 while loop is for to run through a block of code when conditions is true 
 while loop ex:
-while(){}
+int i = 0
+while(i < 5)
+{
+   console.writeline(i) 
+   i++;
+}
 
-do/while loop is for running the loop at least ones and then contune running the loop when condition is true
+datatype
+while(condition)
+{
+  code block
+}
+
+do/while loop is for running the loop at least ones and then contune running the loop when condition is true. and is a variant of the while loop
 do/while loop ex
+int i = 0
 do
 {
+  console.writeline(i);
+  i++;
 }
-while()
+while(i < 5);
+
+datatype
+do
+{
+  code block
+}
+while(condition);
 
 foreach loop is for running through each element in a collection 
 foreach loop ex
-string []
-foreach(){}
+string [] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+foreach(string i in cars)
+{
+  console.writeline(i);
+}
+string(datatype) [array indicator] arrayname {data}
+foreach(type varibalename in arryname){code block}
