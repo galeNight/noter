@@ -27,6 +27,9 @@ contravariance = Enables you to use a more generic (less derived) type than orig
 invariance = Means that you can use only the type originally specified. An invariant generic type parameter is neither covariant nor contravariant. (You cannot assign an instance of List<Base> to a variable of type List<Derived> or vice versa.)
 collection = all lists and arrays
 char = only display one character
+initializer = declare and set values must be both
+condision = do this if true 
+iterator = is a collection 
 
 
 Implicit indirect/automatically
