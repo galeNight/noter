@@ -30,7 +30,7 @@ char = only display one character
 initializer = declare and set values must be both
 condision = do this if true 
 iterator = is a collection 
-
+instantiation = the process of creating a object
 
 Implicit indirect/automatically
 explicit = direct/manually
