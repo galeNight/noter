@@ -31,7 +31,8 @@ initializer = declare and set values must be both
 condision = do this if true 
 iterator = is a collection 
 instantiation = the process of creating a object
-
+stack =
+heap = dynamick m
 Implicit = indirect/automatically
 explicit = direct/manually
 
