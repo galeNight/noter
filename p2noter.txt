@@ -35,6 +35,8 @@ stack =
 heap = dynamick m
 Implicit = indirect/automatically
 explicit = direct/manually
+Encapsulation = hide details from others. support the following access modifiers public, private, protected, internal, protected internal.
+accessors = get set from Encapsulation
 
 constrotor
 første accesmodifire
