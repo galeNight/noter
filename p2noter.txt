@@ -38,6 +38,9 @@ explicit = direct/manually
 Encapsulation = hide details from others. support the following access modifiers public, private, protected, internal, protected internal.
 accessors = get set from Encapsulation
 
+
+object of a class are stored on the heap
+
 constrotor
 første accesmodifire
 andet referencetype
