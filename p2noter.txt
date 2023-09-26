@@ -37,7 +37,9 @@ Implicit = indirect/automatically
 explicit = direct/manually
 Encapsulation = hide details from others. support the following access modifiers public, private, protected, internal, protected internal.
 accessors = get set from Encapsulation
-
+konstructor = instanstiere et object
+property = fields and is a { get ; set } simple logick
+this = looks to local field
 
 object of a class are stored on the heap
 
