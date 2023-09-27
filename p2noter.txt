@@ -12,6 +12,8 @@ parameter retunerre 1
 
 returtyper = void, int, doble, string
 
+
+
 ehnum = tal string
 (int) = Implicit 
 Implicit indirect/automatically
@@ -31,7 +33,7 @@ initializer = declare and set values must be both
 condision = do this if true 
 iterator = is a collection 
 instantiation = the process of creating a object
-stack =
+stack = static
 heap = dynamick m
 Implicit = indirect/automatically
 explicit = direct/manually
@@ -40,6 +42,7 @@ accessors = get set from Encapsulation
 konstructor = instanstiere et object
 property = fields and is a { get ; set } simple logick
 this = looks to local field
+inject = blazers sammnlining med using
 
 object of a class are stored on the heap
 
