@@ -43,13 +43,15 @@ konstructor = instanstiere et object
 property = fields and is a { get ; set } simple logick
 this = looks to local field
 inject = blazers sammnlining med using
+this = takes fields datatype and use them
 
 index in a array idicate the numbers fx [0] <-- this is a index in a array
 array is a refernce type
 destructor has the same name as the class with a ~ infornt and is invocet when a object is deleted
 Math.pi is static 
-
+static class can only static members
 object of a class are stored on the heap
+after each iteration loop iterator
 
 constrotor
 første accesmodifire
@@ -118,9 +120,9 @@ for(int i = 1; i <= 2; ++i){
   }
 }
 
-for(initializer ; condision; iterator){
+for(initializer ; condition; iterator){
   code block
-  for(initializer; condision; iterator){
+  for(initializer; condition; iterator){
     code block 
   }
 }
