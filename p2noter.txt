@@ -45,6 +45,7 @@ this = looks to local field
 inject = blazers sammnlining med using
 this = takes fields datatype and use them
 continue = use to to skip somthing and then continue the loop
+Destructors = is ~ with the class name fx class book ~book, ~ <---Destructor
 
 index in a array idicate the numbers fx [0] <-- this is a index in a array
 array is a refernce type
