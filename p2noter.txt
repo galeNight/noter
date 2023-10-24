@@ -44,6 +44,7 @@ property = fields and is a { get ; set } simple logick
 this = looks to local field
 inject = blazers sammnlining med using
 this = takes fields datatype and use them
+continue = use to to skip somthing and then continue the loop
 
 index in a array idicate the numbers fx [0] <-- this is a index in a array
 array is a refernce type
