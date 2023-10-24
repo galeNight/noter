@@ -54,6 +54,7 @@ Math.pi is static
 static class can only static members
 object of a class are stored on the heap
 after each iteration loop iterator
+operator is use to minimize the amount of written code and make a methode to look like a math equation
 
 constrotor
 første accesmodifire
