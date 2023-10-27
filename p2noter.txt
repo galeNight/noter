@@ -57,6 +57,7 @@ object of a class are stored on the heap
 after each iteration loop iterator
 operator is use to minimize the amount of written code and make a methode to look like a math equation
 methodes if no accemodifier defult to private in virsual studio
+nested class is when a class is in another class
 
 constrotor
 første accesmodifire
