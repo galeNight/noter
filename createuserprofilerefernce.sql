@@ -1,4 +1,4 @@
-USE [Dating]
+USE [DatingApp]
 GO
 
 
@@ -26,7 +26,7 @@ REFERENCES [dbo].[Gender] ([Id])
 GO
 
 ALTER TABLE [dbo].[UserProfile]  WITH CHECK ADD FOREIGN KEY([UsersId])
-REFERENCES [dbo].[Users] ([Id])
+REFERENCES [dbo].[Account] ([Id])
 GO
 
 ALTER TABLE [dbo].[UserProfile]  WITH CHECK ADD CHECK  (([BirthDate]<=dateadd(year,(-18),getdate())))
