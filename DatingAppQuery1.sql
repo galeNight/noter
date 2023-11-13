@@ -33,14 +33,7 @@ foreign key (USerId) references Account(UserId)
 )
 
 
-
-
-
-
-
-
-
-go
+o
 create proc Addacount
 @Username NVARCHAR(50),
 @Password1 NVARCHAR(50),
