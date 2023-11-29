@@ -19,8 +19,8 @@ ehnum = tal string
 Implicit indirect/automatically
 explicit = direct/manually
 int = integer(hole num)
-double = floating (point num)
-float = floating (comma number)
+double = floating (point num) fills more
+float = floating (comma number) fills less
 char = charactor (single char fx A)
 bool = boolean (true/false)
 string = string (text)
