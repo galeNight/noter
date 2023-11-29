@@ -94,10 +94,11 @@ tal operator tegn og forklaring:
 * = gange
 / = division
 % = rest (moduis retunere resten ved en didition)
-+= = addere og tildeler værdien af en variable med en verdi
++= = adder og tildeler værdien af en variable med en verdi
 -= subtrahere og tildeler værdien af en variable med en verdi
 *= = multiplicere og tildeler værdien af en variable med en verdi
 /= dividerer og tildeler værdien af en variable med en verdi
+%= 
 ++ = forøger en variable med en
 -- = forminsker en variable med en
 
