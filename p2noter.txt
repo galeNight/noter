@@ -88,11 +88,12 @@ _ viser at den tilhøre constrostorens
 
 
 tal operator tegn og forklaring:
+() i rejnestyk = giver pioitet ved urejning 
 + = plus
 - = minus
 * = gange
 / = division
-% = modulud retunere resten ved en didition
+% = rest (moduis retunere resten ved en didition)
 += = addere og tildeler værdien af en variable med en verdi
 -= subtrahere og tildeler værdien af en variable med en verdi
 *= = multiplicere og tildeler værdien af en variable med en verdi
