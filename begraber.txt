@@ -1,12 +1,40 @@
 class somthing
 {
-    public string navn; // create a field
+    public string name {get;set;} // property
+    public string name; // create a field
     public somthing() // class constructor
     {
-      navn="mustang" // set value for model
+      name="mustang" // set value for model
+    }
+    public void mySomthing(); // methode
+    {
     }
     static void Main(string[] args)
     {
-      somthing obj = new somthing(); // create a object of class (call the constructor)
+        somthing obj = new somthing(); // create a object of class (call the constructor)
+        mySothing(); // call the methode    
     }
 }
+
+    class Bil // class
+    {
+        private string mærke; // field
+        public string Mærke { get;set; } // property
+
+        public Bil() // class constructor
+        {
+            mærke = "Nissan"; // value to field
+        }
+
+        public void Metode() // Methode
+        {
+            Mærke = mærke; // using the field and putting into property
+            Console.WriteLine(Mærke); // print value
+        }
+
+        static void Main(string[] args)
+        {
+            Bil bil = new Bil(); // obj of bil class (call constructor)
+            bil.Metode(); // call methode
+        }
+    }
