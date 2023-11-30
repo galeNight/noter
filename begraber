@@ -1,0 +1,12 @@
+class somthing
+{
+    public string navn; // create a field
+    public somthing() // class constructor
+    {
+      navn="mustang" // set value for model
+    }
+    static void Main(string[] args)
+    {
+      somthing obj = new somthing(); // create a object of class (call the constructor)
+    }
+}
