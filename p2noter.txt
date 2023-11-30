@@ -99,8 +99,10 @@ tal operator tegn og forklaring:
 *= = multiplicere og tildeler værdien af en variable med en verdi
 /= dividerer og tildeler værdien af en variable med en verdi
 %= 
-++ = forøger en variable med en
--- = forminsker en variable med en
+somting++ = forøger en variable med en(postincrioments)
+somting-- = forminsker en variable med en(postdecromens)
+++somting = forøger en variable med en(preincroment
+--somthing = forminsker en variable med en(predecroments)
 
 logisk operator tegn og forklaring: (boolin)
 == = lig med 
