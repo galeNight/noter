@@ -16,7 +16,7 @@ returtyper = void, int, doble, string
 
 ehnum = tal string
 (int) = Implicit 
-Implicit indirect/automatically
+Implicit indirect/automatically (antager)
 explicit = direct/manually
 int = integer(hole num)
 double = floating (point num) fills more
