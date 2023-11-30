@@ -1,7 +1,9 @@
 class somthing
 {
+    
     public string name {get;set;} // property
-    public string name; // create a field
+    private string name; // create a field
+    string nae //(implicit) field default private
     public somthing() // class constructor
     {
       name="mustang" // set value for model
