@@ -12,7 +12,7 @@ parameter retunerre 1
 
 returtyper = void, int, doble, string
 
-
+(i = i+1) (i + = i) = kan endres manualt
 condotion = true/false
 ehnum = tal string
 (int) = Implicit 
