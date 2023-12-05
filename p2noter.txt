@@ -113,7 +113,7 @@ logisk operator tegn og forklaring: (boolin)
 > = større end 
 < = mindre end
 >= = større end eller lig med
->0 = mindre en eller lig med 
+> = mindre en eller lig med 
 
 
 
