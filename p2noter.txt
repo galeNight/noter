@@ -13,7 +13,7 @@ parameter retunerre 1
 returtyper = void, int, doble, string
 
 
-
+condotion = true/false
 ehnum = tal string
 (int) = Implicit 
 Implicit indirect/automatically (antager)
